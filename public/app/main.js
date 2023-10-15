@@ -1,5 +1,5 @@
-import SquareNeighbors from "./square_neighbors/square_neighbors.js";
-import InterfaceConsole from "./interface/interface.console.js";
+import SquareNeighbors from "./SquareNeighbors/SquareNeighbors.js";
+import InterfaceConsole from "./interface/InterfaceConsole.js";
 
 const game = (board) => {
   board.consoleShow();
