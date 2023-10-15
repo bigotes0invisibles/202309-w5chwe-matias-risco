@@ -26,6 +26,7 @@ class InterfaceCss extends Board {
         for (const cellX of Object.keys(this.cells[cellY])) {
           if (elements[cellY] === undefined) elements[cellY] = {};
           if (this.cells[cellY][cellX].getStatus() === true) {
+            elements[cellY][cellX] = this.cells[cellY][cellX];
           }
 
           this.cells[cellY][cellX].resetNeighbors();
