@@ -5,8 +5,8 @@
   "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "bluid-sass": "sass source/sass/styles.sass  public/styles/styles.css",
-    "bluid-sass:dev": "sass source/sass/styles.sass  public/styles/styles.css -w"
+    "bluid-sass": "sass source/sass/styles.scss  public/styles/styles.css",
+    "bluid-sass:dev": "sass source/sass/styles.scss  public/styles/styles.css -w"
   },
   "keywords": [],
   "author": "",
