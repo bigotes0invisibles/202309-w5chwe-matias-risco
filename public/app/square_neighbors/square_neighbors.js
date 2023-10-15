@@ -55,6 +55,10 @@ class SquareNeighbors {
   addNeighbors() {
     this.neighbors++;
   }
+
+  getStatus() {
+    return this.alive;
+  }
 }
 
 export default SquareNeighbors;

@@ -1,13 +1,13 @@
-import Interface from "./interface/interface.js";
 import SquareNeighbors from "./square_neighbors/square_neighbors.js";
+import InterfaceConsole from "./interface/interface.console.js";
 
 const game = (board) => {
-  board.cleargame();
-  board.show();
+  board.consoleShow();
+  board.consoleClear();
   board.step();
 };
 
-const board = new Interface(20, 6, 0.1, false);
+const board = new InterfaceConsole(20, 6, 0.1, false);
 
 const tableot = {};
 
@@ -45,5 +45,4 @@ for (let indexX = 0; indexX < 5; indexX++) {
   }
 }
 
-// If (!board.isCellsAlive()) board.setUpCells();
 setInterval(game, 100, board);

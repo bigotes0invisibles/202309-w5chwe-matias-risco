@@ -1,6 +1,6 @@
 import Board from "../board/board.js";
-class Interface extends Board {
-  show() {
+class InterfaceConsole extends Board {
+  consoleShow() {
     const { cells } = this;
     for (let positionY = 0; positionY < this.sizeY; positionY++) {
       let showString = "";
@@ -13,9 +13,9 @@ class Interface extends Board {
     }
   }
 
-  cleargame() {
+  consoleClear() {
     console.clear();
   }
 }
 
-export default Interface;
+export default InterfaceConsole;
