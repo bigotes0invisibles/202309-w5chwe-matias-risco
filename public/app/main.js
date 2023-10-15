@@ -1,10 +1,11 @@
 import Interface from "./interface/interface.js";
 import SquareNeighbors from "./square_neighbors/square_neighbors.js";
-function delay(milliseconds) {
-  return new Promise((resolve) => {
-    setTimeout(resolve, milliseconds);
-  });
-}
+
+const game = (board) => {
+  board.cleargame();
+  board.show();
+  board.step();
+};
 
 const board = new Interface(20, 6, 0.1, false);
 
@@ -44,10 +45,5 @@ for (let indexX = 0; indexX < 5; indexX++) {
   }
 }
 
-for (let index = 0; index < 1000000000; index++) {
-  board.cleargame();
-  board.show();
-  board.step();
-  // If (!board.isCellsAlive()) board.setUpCells();
-  await delay(30);
-}
+// If (!board.isCellsAlive()) board.setUpCells();
+setInterval(game, 100, board);
