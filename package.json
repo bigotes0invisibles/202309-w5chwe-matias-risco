@@ -5,7 +5,8 @@
   "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky install"
+    "bluid-sass": "sass source/sass/styles.sass  public/styles/styles.css",
+    "bluid-sass:dev": "sass source/sass/styles.sass  public/styles/styles.css -w"
   },
   "keywords": [],
   "author": "",
@@ -18,7 +19,8 @@
     "eslint-config-prettier": "^9.0.0",
     "eslint-config-xo": "^0.43.1",
     "husky": "^8.0.0",
-    "lint-staged": "^14.0.1"
+    "lint-staged": "^14.0.1",
+    "sass": "^1.69.3"
   },
   "dependencies": {
     "prettier": "^3.0.3"
