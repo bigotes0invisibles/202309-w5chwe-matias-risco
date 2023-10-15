@@ -1,2 +1,5 @@
 @use "./core/reset";
+@use "./core/global";
 @use "./module/header";
+@use "./module/board";
+@use "./module/game";
