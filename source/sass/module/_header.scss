@@ -1,0 +1,9 @@
+@use "../variables/variables";
+
+.header {
+  font-size: 3rem;
+  padding: 20px;
+  text-align: center;
+  background-color: variables.$principal-backgroud-color;
+  color: variables.$font-color;
+}
