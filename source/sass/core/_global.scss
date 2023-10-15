@@ -1,3 +1,6 @@
+@use "../variables/variables";
+
 body {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background-color: variables.$principal-backgroud-color;
 }
