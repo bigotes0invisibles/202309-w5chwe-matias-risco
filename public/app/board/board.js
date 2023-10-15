@@ -1,4 +1,4 @@
-import SquareNeighbors from "../square_neighbors/square_neighbors.js";
+import SquareNeighbors from "../SquareNeighbors/SquareNeighbors.js";
 
 class Board {
   sizeX;

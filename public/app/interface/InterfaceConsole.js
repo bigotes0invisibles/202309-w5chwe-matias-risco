@@ -1,4 +1,4 @@
-import Board from "../board/board.js";
+import Board from "../Board/Board.js";
 class InterfaceConsole extends Board {
   consoleShow() {
     const { cells } = this;
