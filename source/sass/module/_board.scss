@@ -1,0 +1,16 @@
+@use "../variables/variables";
+
+.principal-container {
+  padding: variables.$normal-padding;
+  background-color: variables.$principal-backgroud-color;
+  align-content: center;
+}
+
+.board {
+  margin: auto;
+  min-width: 300px;
+  min-height: 300px;
+  padding: 5px;
+  background-color: variables.$board-background-color;
+  display: grid;
+}
