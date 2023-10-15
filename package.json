@@ -2,6 +2,7 @@
   "name": "202309-w5chwe-matias-risco",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install"
