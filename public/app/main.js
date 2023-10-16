@@ -2,8 +2,8 @@ import SquareNeighbors from "./SquareNeighbors/SquareNeighbors.js";
 import InterfaceConsole from "./interface/InterfaceConsole.js";
 
 const game = (board) => {
-  board.consoleShow();
   board.consoleClear();
+  board.consoleShow();
   board.step();
 };
 
